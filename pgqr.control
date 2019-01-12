@@ -1,0 +1,5 @@
+# qr extension
+comment = 'qr code generator'
+default_version = '1.0'
+module_pathname = '$libdir/pgqr'
+relocatable = true
