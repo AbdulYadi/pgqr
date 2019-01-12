@@ -13,7 +13,7 @@ $ make install<br />
 On successful compilation, install this extension in PostgreSQL environment<br />
 $ create extension pgqr<br />
 
-Function has 4 parameters:<br />
+Function has 4 parameters:
 1. t text: text to be encoded.<br />
 2. correction_level integer: 0 to 3.<br />
 3. model_number integer: 0 to 2.<br />
