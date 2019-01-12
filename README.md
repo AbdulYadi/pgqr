@@ -22,4 +22,4 @@ Function <b>pgqr</b> has 4 parameters:<br />
 Let us create a QR Code<br />
 $ select pgqr('QR Code with PostgreSQL', 0, 0, 4);<br />
 The output is a monochrome bitmap ready for display.<br />
-<img src="https://abdulyadi.files.wordpress.com/2019/01/image.png?w=545">
+<img src="https://abdulyadi.files.wordpress.com/2019/01/image-1.png?w=545">
