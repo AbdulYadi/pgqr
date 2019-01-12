@@ -13,6 +13,12 @@ $ make install<br />
 On successful compilation, install this extension in PostgreSQL environment<br />
 $ create extension pgqr<br />
 
+Function has 4 parameters:<br />
+1. t text: text to be encoded.<br />
+2. correction_level integer: 0 to 3.<br />
+3. model_number integer: 0 to 2.<br />
+4. scale integer: pixels for each dot.<br />
+
 Let us create a QR Code<br />
 $ select pgqr('QR Code with PostgreSQL', 0, 0, 4);<br />
 The output is monochrome bitmap ready for display.
